@@ -1,9 +1,9 @@
 # Image Converter App
 
 This app is built by electron web app. (Chromium).
-Feel free to use. You can download the app in the [Release](https://github.com/socutewhitebear/image-converter-app/releases) tab. Currently only available on Windows Platform.
+Feel free to use.
 
-If you want the source code and build it yourself, follow the installation below. 
+Io get the app, follow the installation below. 
 I only tested the code on Windows, and might not work correctly on other platforms. **Use at your own discretion**.
 
 ## Installation
