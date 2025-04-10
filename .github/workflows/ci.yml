@@ -54,7 +54,7 @@ jobs:
         id: tag
         run: |
           # Create a version tag based on the current date or increment it as needed
-          VERSION_TAG="v1.0.${{ github.run_id }}"
+          VERSION_TAG="v1.0.0+${{ github.run_id }}"
           git tag $VERSION_TAG
           git push origin $VERSION_TAG
         env:
@@ -63,6 +63,8 @@ jobs:
   create_release:
     runs-on: ubuntu-latest  # The release will be created from Ubuntu
     needs: create_tag  # Ensure this job runs after the 'build' job
+    permissions:
+      contents: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
