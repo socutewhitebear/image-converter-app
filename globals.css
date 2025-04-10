@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Geist", Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #121215;
+  color: #fefeff;
+}
+
+code {
+  font-family: "Geist Mono", "Courier New", Courier, monospace;
+}
