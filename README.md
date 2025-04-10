@@ -3,7 +3,7 @@
 This app is built by electron web app. (Chromium).
 Feel free to use.
 
-Io get the app, follow the installation below. 
+To get the app, follow the installation below. 
 I only tested the code on Windows, and might not work correctly on other platforms. **Use at your own discretion**.
 
 ## Installation
